@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78EEF19C2BCE66A0002CE421 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78EEF19B2BCE66A0002CE421 /* GoogleService-Info.plist */; };
 		78F7ED8F2BA1A11C005CABB9 /* BlogAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7ED8E2BA1A11C005CABB9 /* BlogAppApp.swift */; };
 		78F7ED912BA1A11C005CABB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7ED902BA1A11C005CABB9 /* ContentView.swift */; };
 		78F7ED932BA1A11D005CABB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F7ED922BA1A11D005CABB9 /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		78F7EDA82BA1A355005CABB9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7EDA72BA1A355005CABB9 /* Home.swift */; };
 		78F7EDAA2BA1A45F005CABB9 /* BlogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7EDA92BA1A45F005CABB9 /* BlogViewModel.swift */; };
 		78F7EDAC2BA1A484005CABB9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7EDAB2BA1A484005CABB9 /* Post.swift */; };
-		78F7EDAE2BA1AEF8005CABB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78F7EDAD2BA1AEF8005CABB9 /* GoogleService-Info.plist */; };
 		78F7EDB02BA1B441005CABB9 /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7EDAF2BA1B441005CABB9 /* CreatePost.swift */; };
 		78F7EDB22BA1B93D005CABB9 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7EDB12BA1B93D005CABB9 /* TextView.swift */; };
 		78F7EDB52BA1C074005CABB9 /* UIWindow+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7EDB42BA1C074005CABB9 /* UIWindow+Ext.swift */; };
@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78EEF19B2BCE66A0002CE421 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78F7ED8B2BA1A11C005CABB9 /* BlogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F7ED8E2BA1A11C005CABB9 /* BlogAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppApp.swift; sourceTree = "<group>"; };
 		78F7ED902BA1A11C005CABB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		78F7EDA72BA1A355005CABB9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		78F7EDA92BA1A45F005CABB9 /* BlogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewModel.swift; sourceTree = "<group>"; };
 		78F7EDAB2BA1A484005CABB9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		78F7EDAD2BA1AEF8005CABB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78F7EDAF2BA1B441005CABB9 /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
 		78F7EDB12BA1B93D005CABB9 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		78F7EDB42BA1C074005CABB9 /* UIWindow+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Ext.swift"; sourceTree = "<group>"; };
@@ -78,9 +78,9 @@
 		78F7ED8D2BA1A11C005CABB9 /* BlogApp */ = {
 			isa = PBXGroup;
 			children = (
+				78EEF19B2BCE66A0002CE421 /* GoogleService-Info.plist */,
 				78F7EDBC2BA1DF40005CABB9 /* Utility */,
 				78F7EDB32BA1C059005CABB9 /* Extensions */,
-				78F7EDAD2BA1AEF8005CABB9 /* GoogleService-Info.plist */,
 				78F7EDA62BA1A343005CABB9 /* Model */,
 				78F7EDA52BA1A335005CABB9 /* ViewModel */,
 				78F7EDA42BA1A330005CABB9 /* View */,
@@ -219,7 +219,7 @@
 			files = (
 				78F7ED962BA1A11D005CABB9 /* Preview Assets.xcassets in Resources */,
 				78F7ED932BA1A11D005CABB9 /* Assets.xcassets in Resources */,
-				78F7EDAE2BA1AEF8005CABB9 /* GoogleService-Info.plist in Resources */,
+				78EEF19C2BCE66A0002CE421 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
